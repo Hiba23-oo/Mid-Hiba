@@ -1,20 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: 'Poppins', sans-serif;
   background: #fdfaf6;
   color: #657a62;
   line-height: 1.6;
 }
-
-
-
 /* Header */
 .top-header {
   background-color: #50614D;
@@ -44,7 +38,7 @@ h1 {
   margin-bottom: 1rem;
 }
 .welcome-heading {
-  color: #ffffffe3; /* Change this to any color you like (e.g., gold) */
+  color: #ffffffe3;
 }
 
 h2 {
@@ -142,9 +136,8 @@ p {
   text-align: center;
   color: #ffffff;
   overflow: hidden;
-  padding: 0; /* Removed spacing */
-  margin: 0;  /* Ensure no margin below */
-  background: url('ic:\Users\DELL\Downloads\bakery-hero.mp4') center/cover no-repeat; /* fallback */
+  padding: 0; 
+  margin: 0; 
 }
 
 .bg-video {
@@ -227,7 +220,7 @@ p {
 /* Page Wrapper */
 .page {
   max-width: 1000px;
-  margin: 0 auto; /* Removed top margin to prevent footer gap */
+  margin: 0 auto;
   padding: 0 1rem;
   display: flex;
   flex-direction: column;
@@ -301,22 +294,22 @@ form button {
 
 /* FAQ Section Styling */
 .page h3 {
-  color: #50614D;         /* Darker green for FAQ questions */
-  font-weight: 600;       /* Slightly bolder for questions */
-  font-size: 1.6rem;      /* Bigger font size for questions */
+  color: #50614D;         
+  font-weight: 600;    
+  font-size: 1.6rem;
   margin: 1.5rem 0 0.5rem;
-  text-align: left;       /* Align questions to the left for readability */
-  max-width: 700px;       /* Keep a max width for large screens */
+  text-align: left;       
+  max-width: 700px;      
   width: 100%;
 }
 
 .page h3 + p {
-  max-width: 700px;       /* Same max width for answers */
+  max-width: 700px;      
   margin: 0 0 1.5rem 0;
-  color: #657a62;         /* Softer text color for answers */
-  font-size: 1.2rem;      /* Comfortable reading size */
+  color: #657a62;        
+  font-size: 1.2rem;    
   line-height: 1.5;
-  text-align: left;       /* Align answers left */
+  text-align: left;       
   width: 100%;
 }
 
@@ -335,7 +328,7 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem;
-  margin: 0; /* Removed top margin to eliminate white gap */
+  margin: 0; 
 }
 
 /* Responsive */
