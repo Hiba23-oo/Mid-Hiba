@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> e64d4f7 (Added video backgroung and updated styles)
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Poppins', sans-serif;
   background: #fdfaf6;
@@ -16,15 +13,23 @@ body {
 /* Header */
 .top-header {
   background-color: #50614D;
-  padding: 3rem 2rem;
-  color: #fff;
+  padding: 2.5rem ;
+  color: #50614D;
   position: relative;
   z-index: 1000;
 }
-
+#th1{
+  color: white; 
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.3rem;
+  background-color: #50614D;
+}
 .top-header .hamburger {
   color: #fff;
-  background: #3d4d3c;
+  background: #50614D;
 }
 
 .top-header .hamburger:hover {
@@ -38,19 +43,12 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
-}
-.welcome-heading {
-<<<<<<< HEAD
-  color: #ffffffe3;
-=======
-  color: #ffffffe3; 
->>>>>>> e64d4f7 (Added video backgroung and updated styles)
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 0.75rem;
 }
 
@@ -62,6 +60,14 @@ h3 {
 p {
   margin-bottom: 1rem;
   font-size: 1.4rem;
+}
+.welcome-heading {
+  color: white;
+}
+.main-heading {
+  color: white;
+  text-align: center;
+  font-size: 45px;
 }
 
 /* Sidebar Navigation */
@@ -144,13 +150,8 @@ p {
   text-align: center;
   color: #ffffff;
   overflow: hidden;
-<<<<<<< HEAD
   padding: 0; 
   margin: 0; 
-=======
-  padding: 0; /* Removed spacing */
-  margin: 0;  /* Ensure no margin below */
->>>>>>> e64d4f7 (Added video backgroung and updated styles)
 }
 
 .bg-video {
@@ -240,8 +241,14 @@ p {
   align-items: center;
   text-align: center;
 }
+
+#about-contact{
+text-align: center;
+padding: 2%;
+
+}
 #cutom-text{
-font-size: medium;
+  font-size: medium;
 }
 /* Menu Grid */
 .menu-grid {
@@ -337,11 +344,17 @@ form button {
 
 /* Footer */
 footer {
-  background: #3d4d3c;;
+  background: #3d4d3c;
   color: #fff;
   text-align: center;
   padding: 1rem;
   margin: 0; 
+}
+#footer-2 {
+  background: #3d4d3c;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
 }
 
 /* Responsive */
