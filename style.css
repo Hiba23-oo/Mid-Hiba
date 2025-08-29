@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> e64d4f7 (Added video backgroung and updated styles)
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +42,11 @@ h1 {
   margin-bottom: 1rem;
 }
 .welcome-heading {
+<<<<<<< HEAD
   color: #ffffffe3;
+=======
+  color: #ffffffe3; 
+>>>>>>> e64d4f7 (Added video backgroung and updated styles)
 }
 
 h2 {
@@ -136,8 +144,13 @@ p {
   text-align: center;
   color: #ffffff;
   overflow: hidden;
+<<<<<<< HEAD
   padding: 0; 
   margin: 0; 
+=======
+  padding: 0; /* Removed spacing */
+  margin: 0;  /* Ensure no margin below */
+>>>>>>> e64d4f7 (Added video backgroung and updated styles)
 }
 
 .bg-video {
